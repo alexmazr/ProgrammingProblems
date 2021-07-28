@@ -1,5 +1,8 @@
-import math
 import random
+
+#######################################################
+## Find a subset of a list, of size k, with a max sum
+#######################################################
 
 def slidingWindow (list, windowSize):
     # Set up the first window
@@ -14,9 +17,10 @@ def slidingWindow (list, windowSize):
         slidingSum -= list [index]
         if slidingSum > maxSum:
             maxSum = slidingSum
-            maxIndex = index
+            # We need plus one because index is flagging an item for removal
+            maxIndex = index+1
     
     print ("Result: list["+str(maxIndex)+"] = " + str(maxSum))
 
 list = [random.randint(1, 20) for x in range(100000)]
-slidingWindow(list, 50)
+slidingWindow(list, 4)
