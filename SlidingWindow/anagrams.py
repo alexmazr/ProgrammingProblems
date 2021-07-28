@@ -28,12 +28,14 @@ def slidingWindow (s, p):
         runningHash [s[index]] -= 1
         if runningHash [s[index]] == 0:
             del runningHash [s[index]]
-        
+            
         # Step 3: Compare our runningHash with our pHash
         if runningHash == pHash:
             # We need index+1 because index is pointing towards a character to remove
             solutionSet.append(index+1)
-    
-    print (solutionSet)
-            
+    print(solutionSet)
+        
+
+
+
 slidingWindow ("banana aanbna many bananas do monkeys like to aaannb", "banana")
