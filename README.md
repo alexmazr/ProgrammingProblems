@@ -1,7 +1,7 @@
 # Common Programming Problems
-### Alex Mazur
+Alex mazur
 
-## What is this!
+## What is this?
 I made this repository as a place to store solutions to common programming problems.
 
 Feel free to look around, fork this, download anything you want, or send me an angry message about how bad some of my solutions are!
