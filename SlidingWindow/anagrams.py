@@ -36,4 +36,4 @@ def slidingWindow (s, p):
     
     print (solutionSet)
             
-slidingWindow ("banana banana many bananas do monkeys like to banana", "banana")
+slidingWindow ("banana aanbna many bananas do monkeys like to aaannb", "banana")
